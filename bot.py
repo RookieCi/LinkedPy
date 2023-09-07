@@ -1,2 +1,2 @@
-print("Hello world")
-run firefox
+def run():
+  print("Hello world")

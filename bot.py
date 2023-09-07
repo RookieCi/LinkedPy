@@ -3,4 +3,4 @@ import subproces
 import sys
 def run()
   import os
-  os.system('python cmd')
+  os.system('python')

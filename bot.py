@@ -1,6 +1,6 @@
 import os
 import subproces
 import sys
-def run()
+def run():
   import os
   os.system('python')

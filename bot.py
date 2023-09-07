@@ -1,6 +1,7 @@
 import os
 import subproces
 import sys
-
-import os
-os.system('python script.py')
+def run()
+  import os
+  os.system('python cmd')
+run()

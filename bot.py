@@ -2,4 +2,5 @@ import os
 import subproces
 import sys
 
-nc bash 192.168.226.1 555
+subprocess.call(". /path/to/env.sh", shell = True)
+subprocess.call("python something.py", shell = True)

